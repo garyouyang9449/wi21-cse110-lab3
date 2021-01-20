@@ -104,7 +104,7 @@ ol {
 li {
   margin: auto;
 }
-
+/*
 @media (max-width: 12450px) {
   head {
     background-color: lightblue;
@@ -130,3 +130,4 @@ li {
   flex-wrap: wrap;
   justify-content: flex-start;
 }
+*/
