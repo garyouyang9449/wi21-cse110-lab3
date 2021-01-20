@@ -101,13 +101,13 @@ ol {
 li {
   margin: auto;
 }
-/*
+
 @media (max-width: 12450px) {
   head {
     background-color: lightblue;
   }
 }
-
+/*
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
