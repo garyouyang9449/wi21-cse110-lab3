@@ -119,6 +119,7 @@ li {
 .item + .item {
   margin-left: 2%;
 }
+
 /*
 .grid-container {
   display: grid;
