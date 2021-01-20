@@ -107,20 +107,19 @@ li {
     background-color: lightblue;
   }
 }
-/*
 .flex-container {
   display: flex;
-  flex-wrap: nowrap;
   background-color: lightBlue;
 }
 
-.flex-container > div {
-  text-align: center;
-  line-height: 70px;
-  font-size: 25px;
+.item {
+  flex-grow: 1;
+  height: 100px;
 }
-
-
+.item + .item {
+  margin-left: 2%;
+}
+/*
 .grid-container {
   display: grid;
   flex-direction: column;
