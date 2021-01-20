@@ -1,1 +1,11 @@
+.name {
+  background-color: yellow;
+}
 
+#nameID {
+  text-align: center;
+}
+
+*{
+  background-color: white;
+}
