@@ -32,6 +32,14 @@ a:link {
   color: hsl(240, 100%, 50%);
 }
 
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: blue;
+}
+
 @font-face{ 
     font-family: 'MyWebFont';
     src: url('WebFont.eot');
@@ -45,12 +53,15 @@ aside p {
   font-family: 'MyWebFont', Arial, sans-serif;
   font-size: 3rem;
   line-height: 10mm;
+  display: block;
 }
 
 aside>p {
   text-decoration: overline;
   font-size: 3ch;
   line-height: 0.5in;
+  display: inline;
+  max-width: 75%;
 }
 
 summary+p {
@@ -62,8 +73,13 @@ label~input {
   background-color: yellow;
 }
 
+div {
+  position: fixed;
+}
+
 div.h2 {
   background-color: white;
+  position: static;
 }
 
 ul {
@@ -87,4 +103,10 @@ ol {
 
 li {
   margin: auto;
+}
+
+@media (max-width: 12450px) {
+  head {
+    background-color: lightblue;
+  }
 }
