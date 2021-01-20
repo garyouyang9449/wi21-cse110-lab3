@@ -73,10 +73,6 @@ label~input {
   background-color: yellow;
 }
 
-div {
-  position: fixed;
-}
-
 div.h2 {
   background-color: white;
   position: static;
@@ -97,6 +93,7 @@ ul {
 }
 
 ol {
+  position: fixed;
   margin: 2px 5px 7px 10px;
   padding: 2px 5px 7px 10px;
 }
