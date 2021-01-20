@@ -116,11 +116,9 @@ li {
   flex-grow: 1;
 }
 
-/*
 .grid-container {
   display: grid;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-*/
