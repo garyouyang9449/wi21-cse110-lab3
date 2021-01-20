@@ -1,5 +1,5 @@
 .name {
-  background-color: white;
+  background-color: #ffa500;
 }
 
 #nameID {
@@ -9,9 +9,21 @@
 *{
   background-color: white;
 }
-p {
-  background-color: yellow;
-}
+p, 
 body {
   background-color: lightblue;
+  border-color: rgb(255, 0, 0);
+  border-radius: 25px;
+  border-width: thick;
+  border-style: dotted;
+}
+h2 {
+  color: grey;
+}
+caption[target="notblank"] {
+  background-color: yellow;
+}
+
+a:link {
+  color: hsl(240, 100%, 50%);
 }
