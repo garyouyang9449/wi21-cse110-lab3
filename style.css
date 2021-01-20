@@ -6,9 +6,10 @@
   text-align:center;
 }
 
-*{
+* {
   background-color: white;
 }
+
 p, 
 body {
   background-color: lightblue;
@@ -17,13 +18,49 @@ body {
   border-width: thick;
   border-style: dotted;
 }
+
 h2 {
   color: grey;
 }
+
 caption[target="notblank"] {
   background-color: yellow;
 }
 
 a:link {
   color: hsl(240, 100%, 50%);
+}
+
+@font-face{ 
+    font-family: 'MyWebFont';
+    src: url('WebFont.eot');
+    src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+         url('WebFont.woff') format('woff'),
+         url('WebFont.ttf') format('truetype'),
+         url('WebFont.svg#webfont') format('svg');
+}
+
+aside p {
+  font-family: 'MyWebFont', Arial, sans-serif;
+  font-size: 3rem;
+  line-height: 10mm;
+}
+
+aside>p {
+  text-decoration: overline;
+  font-size: 3ch;
+  line-height: 0.5in;
+}
+
+summary+p {
+  line-height: 2em;
+  font-size: 0.5cm;
+}
+
+label~input {
+  background-color: yellow;
+}
+
+div.h2 {
+  background-color: white;
 }
